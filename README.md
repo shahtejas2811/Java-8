@@ -45,7 +45,7 @@ JVM Level Changes
 - Meta space 
 - Parallel GC default in JDK 8
 - Java SE 8u131 and JDK 9 are expected to improve the Java running in Docker
-	* number of GC threads,JIT compiler threads should be set transparently  base on host configrution . (if jvm argumnent is not specified)
+	* number of GC threads,JIT compiler threads should be set transparently  base on host configuration . (if JVM argument is not specified)
 		a. -XX:+UnlockExperimentalVMOptions 
 		b. -XX:+UseCGroupMemoryLimitForHeap.
-	* setting up above to JVM argument .JVM see containers configrution instead of host configrution (on which machine container deployed)
+	* setting up above to JVM argument .JVM see containers configuration instead of host configuration (on which machine container deployed)
